@@ -28,7 +28,7 @@ public:
 
 	virtual void setSize(int size) = 0;
 
-	virtual bool doesCyle() = 0;
+	virtual bool doesCyle() = 0; //dailyByte
 
 	virtual void cycleList() = 0;
 
@@ -36,6 +36,6 @@ public:
 
 	virtual Node<T>* findCylceStart() = 0; //not implemented
 
-	virtual Node<T>* reverseList() = 0;
+	virtual Node<T>* reverseList() = 0; //dailyByte
 };
 #endif
